@@ -1,0 +1,46 @@
+tures*
+
+1. It shows a list of links from the database
+2. New links can be added
+3. Links can be tagged
+4. Links can be filtered by a tag
+5. Sort by time added
+
+*User Stories*
+
+(1)
+
+As a user,
+So that i can go to websites that visit frequently,
+I'd like to display a list links to websites.
+
+(2)
+
+As a user,
+So that I can update the list of bookmarks,
+I'd like to add links and title to a website that I like.
+
+(3)
+
+As a user,
+So that I can keep organize my links,
+I want to be able to tag them.
+
+(4)
+
+As a user,
+So that I can search for websites based on a topic,
+I want to filter links by tag.
+
+(5)
+
+As a user,
+So I can see my latest bookmarks,
+I want to be able to sort by time added.
+
+*Classes*
+
+- User: tracks identity
+- Bookmark manager: manages bookmarks (add, sort, filter)
+- Bookmark: tracks the website URL, blurb and tag info
+- Tags: categories
