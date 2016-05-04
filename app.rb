@@ -3,7 +3,7 @@ require 'sinatra/base'
 class BookmarkManager < Sinatra::Base
   enable :sessions
   get '/' do
-      erb(:index)
+    erb(:index)
   end
 
   get '/add' do
