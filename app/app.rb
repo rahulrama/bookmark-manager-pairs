@@ -1,8 +1,13 @@
 require 'sinatra/base'
 require_relative 'models/link'
+ENV["RACK_ENV"] ||= "development"
 
 class BookmarkManager < Sinatra::Base
   enable :sessions
+
+  get '/' do
+    redirect '/links'
+  end
 
   get '/links' do
     #what does this mean?
