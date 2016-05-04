@@ -1,6 +1,5 @@
 feature 'create links' do
   scenario 'add link to a list of links' do
-  #Link.create(url: 'http://www.makersacademy.com', title: 'Makers Academy', tag: 'course material')
     visit '/links'
     click_button 'New'
     fill_in :title, with: "Google"
